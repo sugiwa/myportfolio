@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import dog from './image/dog.png';
 import exampleblog from './image/exampleblog.png';
 import portfolio from './image/portfolio.png';
 import Work from './Work';
