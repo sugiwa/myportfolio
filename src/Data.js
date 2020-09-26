@@ -12,7 +12,7 @@ function Data() {
             description:'ReactベースのフレームワークであるGatsbyを用いて作成し、Netlifyへデプロイしました。',
             image:exampleblog,
             url:'https://youthful-williams-7f4bf8.netlify.app',
-            details:'これは何のために作りました',
+            details:'Reactでブログを作成するにあたり、フレームワークの候補としてGatsbyかNextが挙がりましたがGatsbyの方が速くGraphQLが使えるとのことなのでこちらを採用しました。',
             skill:'ReactJS,Gatsby',
         },
         {
