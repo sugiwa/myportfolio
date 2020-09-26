@@ -15,7 +15,7 @@ function Data() {
             skill:'ReactJS,Gatsby',
         },
         {
-            name:'Ryo portfolio',
+            name:'Ryo Portfolio',
             description:'Reactを用いて作成したポートフォリオで、Netlifyにデプロイしました。',
             image:portfolio,
             url:'https://distracted-bassi-d1ec6e.netlify.app',
