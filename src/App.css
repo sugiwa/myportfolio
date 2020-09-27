@@ -105,11 +105,17 @@ p{
 }
 .work-description{
   color: #000000;
+  width: 90%;
+  margin: 0 auto;
 }
 .MuiButton-label{
   font-size: 20px;
+  padding: 10px 0 10px;
 }
-
+.MuiButton-label a{
+  padding: 10px 0 10px;
+  display: block;
+}
 
 .modal-back{
   width: 100%;

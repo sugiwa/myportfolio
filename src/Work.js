@@ -18,9 +18,13 @@ class Work extends React.Component {
 
   render(){
     let openButton
+    let period
     if(this.props.isPortfolio){
       openButton = (<Button onClick={()=>this.toggleModal()}>詳細</Button>)
+    }else if(this.props.experience !== ''){
+      period = (<div>使用期間：{this.props.experience}</div>)
     }
+
     let modal
     if(this.state.isModalOpen){
       modal = (
@@ -46,6 +50,7 @@ class Work extends React.Component {
               <div className='work-description'>
                   <h4>{this.props.name}</h4>
                   <p>{this.props.description}</p>
+                  {period}
                   {openButton}
                   {modal}
               </div>

@@ -8,7 +8,7 @@ function Data() {
     const WorkLists = [
         {
             name:'Example Blog',
-            description:'ReactベースのフレームワークであるGatsbyを用いて作成し、Netlifyへデプロイしました。',
+            description:'Gatsbyを学習するためチュートリアルを参考にして作成し、Netlifyへデプロイしました。',
             image:exampleblog,
             url:'https://youthful-williams-7f4bf8.netlify.app',
             details:'Reactでブログを作成するにあたり、フレームワークの候補としてGatsbyかNextが挙がりましたがGatsbyの方が速くGraphQLが使えるとのことなのでこちらを採用しました。',
