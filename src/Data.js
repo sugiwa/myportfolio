@@ -12,7 +12,7 @@ function Data() {
             image:exampleblog,
             url:'https://youthful-williams-7f4bf8.netlify.app',
             details:'Reactでブログを作成するにあたり、フレームワークの候補としてGatsbyかNextが挙がりましたがGatsbyの方が速くGraphQLが使えるとのことなのでこちらを採用しました。',
-            skill:'ReactJS,Gatsby',
+            skill:'React,Gatsby',
         },
         {
             name:'Ryo Portfolio',
