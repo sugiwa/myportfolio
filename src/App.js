@@ -30,7 +30,7 @@ class App extends React.Component {
               <li onClick={()=>{this.setState({number:2})}}>Blog</li>
             </ul>
           </nav>
-          <div className='top-image'>Ryo portfolio</div>
+          <div className='top-image'>Ryo Portfolio</div>
           <div className='content-width'>
             {content}
           </div>
