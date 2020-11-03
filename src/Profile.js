@@ -11,6 +11,9 @@ import python from './image/python.svg';
 import c from './image/c.svg';
 import nextjs from './image/nextjs.svg';
 import redux from './image/redux.svg';
+import ruby from './image/ruby.svg';
+import rails from './image/rails.svg';
+import graphql from './image/graphql.svg';
 
 
 function Profile() {
@@ -40,9 +43,27 @@ function Profile() {
             experience:'3ヶ月',
         },
         {
+            name:'Redux',
+            description:'Reactの技術力を上げるために学習しています。',
+            image:redux,
+            experience:'1ヶ月',
+        },
+        {
             name:'Gatsby',
-            description:'GraghQLは学習中ですが、基本的な操作は可能です。',
+            description:'ブログを作成する際に使用しています。',
             image:gatsby,
+            experience:'2ヶ月',
+        },
+        {
+            name:'GraphQL',
+            description:'基本的な操作は可能です。',
+            image:graphql,
+            experience:'1ヶ月',
+        },
+        {
+            name:'Next.js',
+            description:'Webアプリ開発に使用するため学習しています。',
+            image:nextjs,
             experience:'1ヶ月',
         },
         {
@@ -60,21 +81,21 @@ function Profile() {
     ]
     const learningList = [
         {
-            name:'Next.js',
-            description:'GatsbyとNextのどちらを学ぶべきか分からないのでとりあえず両方触ってみるつもりで学習しています。',
-            image:nextjs,
+            name:'Ruby',
+            description:'基本的な操作は可能です。',
+            image:ruby,
             experience:'',
         },
         {
-            name:'Redux',
-            description:'Reactでコーディングする際にコンポーネント間での状態管理が難しいのでRuduxを学習することにしました。',
-            image:redux,
+            name:'Rails',
+            description:'基本的な操作は可能です。APIを作成するため学習中',
+            image:rails,
             experience:'',
         }
     ]
 
-  return (
-    <div className='contents'>
+    return (
+        <div className='contents'>
         <h2>Profile</h2>
         <div className='wrapper'>
             <div className='profile'>

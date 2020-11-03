@@ -173,7 +173,7 @@ p{
   }
   
   .work-box img{
-    height: 20%;
+    height: 200px;
   }
   .work-description p{
     font-size: 1.5rem;
@@ -192,8 +192,18 @@ p{
 
 
 @media screen and (max-width:480px){
+  .content-width{
+    width: 80%;
+  }
   .work-frame{
     width: 100%;
+  }
+  .work-description p{
+    font-size: 150%;
+  }
+
+  .myname{
+    font-size: 60%;
   }
   
   .menu li{

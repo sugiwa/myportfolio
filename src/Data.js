@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import exampleblog from './image/exampleblog.png';
 import portfolio from './image/portfolio.png';
+import ryoblog from './image/ryoblog.png';
 import Work from './Work';
 
 function Data() {
@@ -21,6 +22,14 @@ function Data() {
             url:'https://distracted-bassi-d1ec6e.netlify.app',
             details:'ポートフォリオサイトをまだ持っておらず、Reactの技術をより深めたいと思い作成しました。レスポンシブで白を基調としたシンプルなデザインとなるよう意識しました。',
             skill:'React'
+        },
+        {
+            name:'Ryo Blog',
+            description:'学習のアウトプットとしての情報発信兼新たな技術を試すためのサイトです',
+            image:ryoblog,
+            url:'https://www.ryoblg.com',
+            details:'このサイトはNetlifyにデプロイされ、Contentfulで書かれた記事を取得しています。また、シンタックスハイライトやその他ツールなどブログとして活用できそうな機能を実際に取り入れて試すということも行っています。',
+            skill:'React,Gatsby,GraphQL'
         },
     ]
     return (
