@@ -19,7 +19,7 @@ function Data() {
             name:'Ryo Portfolio',
             description:'Reactを用いて作成したポートフォリオで、Netlifyにデプロイしました。',
             image:portfolio,
-            url:'https://distracted-bassi-d1ec6e.netlify.app',
+            url:'https://wonderful-agnesi-db77e9.netlify.app/',
             details:'ポートフォリオサイトをまだ持っておらず、Reactの技術をより深めたいと思い作成しました。レスポンシブで白を基調としたシンプルなデザインとなるよう意識しました。',
             skill:'React'
         },
