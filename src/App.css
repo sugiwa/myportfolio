@@ -84,6 +84,13 @@ p{
   display: flex;
   flex-wrap: wrap;
 }
+.work-back > a{
+  width:50%;
+  text-decoration: none;
+}
+.work-back > a > .work-frame{
+  width: 100%;
+}
 .work-frame{
   width: 50%;
   margin: 3% 0;
@@ -109,13 +116,21 @@ p{
   width: 90%;
   margin: 0 auto;
 }
+
 .MuiButton-label{
   font-size: 20px;
   padding: 10px 0 10px;
 }
-.MuiButton-label a{
-  padding: 10px 0 10px;
-  display: block;
+
+.moreButton{
+  width: 50%;
+  max-width: 250px;
+}
+.detailButton{
+  width: 50%;
+}
+.button-frame{
+  padding: 5px 0 10px;
 }
 
 .modal-back{
@@ -196,6 +211,9 @@ p{
     width: 80%;
   }
   .work-frame{
+    width: 100%;
+  }
+  .work-back > a{
     width: 100%;
   }
   .work-description p{

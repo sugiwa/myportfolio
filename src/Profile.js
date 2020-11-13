@@ -14,7 +14,7 @@ import redux from './image/redux.svg';
 import ruby from './image/ruby.svg';
 import rails from './image/rails.svg';
 import graphql from './image/graphql.svg';
-
+import typescript from './image/typescript.svg';
 
 function Profile() {
     const skillList = [
@@ -91,6 +91,12 @@ function Profile() {
             description:'基本的な操作は可能です。APIを作成するため学習中',
             image:rails,
             experience:'',
+        },
+        {
+            name:'TypeScript',
+            description:'より高度な開発を行うため学習中',
+            image:typescript,
+            experience:''
         }
     ]
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Button from '@material-ui/core/button';
+import Button from '@material-ui/core/Button';
 
 class Work extends React.Component {
   constructor(props){
@@ -20,7 +20,11 @@ class Work extends React.Component {
     let openButton
     let period
     if(this.props.isPortfolio){
-      openButton = (<Button onClick={()=>this.toggleModal()}>詳細</Button>)
+      openButton = (
+        <div className='button-frame'>
+          <Button onClick={()=>this.toggleModal()} variant='outlined' className='detailButton'>詳細</Button>
+        </div>
+      )
     }else if(this.props.experience !== ''){
       period = (<div>使用期間：{this.props.experience}</div>)
     }
@@ -36,8 +40,9 @@ class Work extends React.Component {
               <p>使用技術：{this.props.skill}</p>
               <p>{this.props.description}</p>
               <p>{this.props.details}</p>
-              <Button><a　href={this.props.url}>サイトへ行く</a></Button>
-              <Button onClick={()=>this.toggleModal()}>閉じる</Button>
+              <Button variant='outlined' size='small' href={this.props.url}>サイトへ行く</Button>
+              <br />
+              <Button onClick={()=>this.toggleModal()} variant='outlined'>閉じる</Button>
             </div>
           </div>
         </div>
