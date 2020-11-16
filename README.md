@@ -3,7 +3,7 @@
 ## 概要
 このサイトでは自分の制作物やスキルを紹介しています。また制作物を作成する際やスキルを学ぶ際に得た知識や問題の解決方法をまとめたサイトも運営しており、そのサイトの一部も紹介しています。  
 
-Nextjsに移行しました。  
+### Nextjsに移行しました。  
 - [Ryo Portfolio](https://portfolio-one-theta.vercel.app/)
 - [GitHub](https://github.com/sugiwa/portfolio)
 
